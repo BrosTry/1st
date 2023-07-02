@@ -5,14 +5,14 @@ const en: RequiredLocaleType = {
   WIP: "Coming Soon...",
   Error: {
     Unauthorized:
-      "Unauthorized access, please enter access code in [auth](/#/auth) page.",
+      "您输入的会员密钥错误Unauthorized access, please enter access code in [auth](/#/auth) page.",
   },
   Auth: {
-    Title: "Need Access Code",
-    Tips: "Please enter access code below",
-    Input: "access code",
-    Confirm: "Confirm",
-    Later: "Later",
+    Title: "进入需要会员密钥Need Access Code",
+    Tips: "请在下方输入会员密钥Please enter access code below",
+    Input: "会员密钥access code",
+    Confirm: "确认Confirm",
+    Later: "晚些Later",
   },
   Midjourney: {
     SelectImgMax: (max: number) => `Select up to ${max} images`,
@@ -221,9 +221,9 @@ const en: RequiredLocaleType = {
     },
   },
   Store: {
-    DefaultTopic: "New Conversation",
-    BotHello: "Hello! How can I assist you today?",
-    Error: "Something went wrong, please try again later.",
+    DefaultTopic: "新的话题New Conversation",
+    BotHello: "你好呀，我是你可爱的卤蛋智能助手，有什么需要我的尽管开口?",
+    Error: "哎呀，卤蛋被煮了，请晚点再找我吧.",
     Prompt: {
       History: (content: string) =>
         "This is a summary of the chat history as a recap: " + content,
