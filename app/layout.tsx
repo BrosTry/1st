@@ -7,8 +7,8 @@ import { getBuildConfig } from "./config/build";
 const buildConfig = getBuildConfig();
 
 export const metadata = {
-  title: "lay中的主题上",
-  description: "lay中的主题描述Your personal ChatGPT+Midjourney Chat Bot.",
+  title: "AiGoway 有我，便有梦想！",
+  description: "中国好Ai,能唠、能写、能做题、能想、能画、能分析，做你想做的！",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -19,7 +19,7 @@ export const metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "lay中的苹果软件",
+    title: "AiGoway 有我，才能实现梦想！",
     statusBarStyle: "default",
   },
 };
