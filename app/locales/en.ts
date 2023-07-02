@@ -5,14 +5,14 @@ const en: RequiredLocaleType = {
   WIP: "Coming Soon...",
   Error: {
     Unauthorized:
-      "您的会员码是多少呀？请 [这里auth](/#/auth) 在页面输入您的会员码.",
+      "你的会员码是多少呀？请 [这里](/#/auth) 输入会员码.",
   },
   Auth: {
-    Title: "进入需要会员码喔",
-    Tips: "在下面输入会员码啦",
+    Title: "私密空间",
+    Tips: "进入需要会员码",
     Input: "会员码",
     Confirm: "确认",
-    Later: "晚些啦",
+    Later: "晚些",
   },
   Midjourney: {
     SelectImgMax: (max: number) => `Select up to ${max} images`,
@@ -222,7 +222,7 @@ const en: RequiredLocaleType = {
   },
   Store: {
     DefaultTopic: "New Conversation",
-    BotHello: "你好呀，我是你可爱的卤蛋智能助手，有什么需要尽管开口",
+    BotHello: "你好呀，我是你可爱的卤蛋智能助手，有什么需要尽管开口。",
     Error: "哎呀，卤蛋要被煮了，呜呜呜，请晚点再找我吧.",
     Prompt: {
       History: (content: string) =>
