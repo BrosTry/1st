@@ -119,9 +119,9 @@ export function SideBar(props: { className?: string }) {
       }`}
     >
       <div className={styles["sidebar-header"]}>
-        <div className={styles["sidebar-title"]}>原来的ChatGPT-Midjourney</div>
+        <div className={styles["sidebar-title"]}>AiGoway</div>
         <div className={styles["sidebar-sub-title"]}>
-          AIGOWAY最棒的人工智能助手Your own AI assistant.
+          致力于打造最好用的中文AI助手.
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
