@@ -119,7 +119,7 @@ export function SideBar(props: { className?: string }) {
       }`}
     >
       <div className={styles["sidebar-header"]}>
-        <div className={styles["sidebar-title"]}>哎嘛，Ai够味！</div>
+        <div className={styles["sidebar-title"]}>卤蛋智能助手</div>
         <div className={styles["sidebar-sub-title"]}>
           有趣、有料、有效，能写、能画、能唠！
         </div>
