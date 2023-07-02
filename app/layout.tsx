@@ -8,14 +8,14 @@ const buildConfig = getBuildConfig();
 
 export const metadata = {
   title: "AiGoway 有我，便有梦想！",
-  description: "中国好Ai,能唠、能写、能做题、能想、能画、能分析，做你想做的！",
+  description: "中国好Ai,能说、能写、能做题、能想、能画、能分析，Ai够味，做你想做的！",
   viewport: {
     width: "device-width",
     initialScale: 1,
     maximumScale: 1,
   },
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#fafafa" },
+    { media: "(prefers-color-scheme: light)", color: "#6A0000" },
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
